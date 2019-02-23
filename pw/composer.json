@@ -1,0 +1,17 @@
+{
+  "name": "jasonelle/jasonbase",
+  "description": "A Json HeadQuarter",
+  "keywords": [ "jasonelle", "json", "hosting" ],
+  "license": "MIT",
+  "homepage": "https://jasonelle.com",
+  "authors": [],
+  "require": {
+    "php": ">=7.1.0",
+    "ext-gd": "*",
+    "laktak/hjson": "^2.0",
+    "ramsey/uuid": "^3.8"
+  },
+  "autoload": {
+    "files": [ "wire/core/ProcessWire.php" ]
+  }
+}

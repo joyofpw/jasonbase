@@ -1,0 +1,6 @@
+.DS_Store
+pw/site/assets/cache/**
+pw/site/assets/logs/**
+pw/site/assets/sessions/**
+database/
+config/
