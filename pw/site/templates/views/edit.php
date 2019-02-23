@@ -81,7 +81,8 @@
                     id="json" 
                     name="content" 
                     class="textarea" 
-                    rows="10"><?php echo $parent->body ?></textarea>
+                    rows="10"
+                    required><?php echo $parent->body ?></textarea>
             </div>
             <div class="column is-1"></div>
         </div>

@@ -64,7 +64,7 @@
         <div class="columns">
             <div class="column is-1"></div>
             <div class="column">
-                <textarea style="background-color:#fffff3;" id="json" name="content" class="textarea" rows="10"></textarea>
+                <textarea style="background-color:#fffff3;" id="json" name="content" class="textarea" rows="10" required></textarea>
             </div>
             <div class="column is-1"></div>
         </div>
