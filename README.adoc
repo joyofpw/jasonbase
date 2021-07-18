@@ -17,7 +17,7 @@
 
 ## Secure, Powerful and Flexible
 
-*Jasonbase* uses [ProcessWire CMS/CMF](https://processwire.com) in order to bring the most secure, powerful and flexible environment to extend and configure to your needs.
+*Jasonbase* uses https://processwire.com[ProcessWire CMS/CMF] in order to bring the most secure, powerful and flexible environment to extend and configure to your needs.
 
 ## Credits
 
