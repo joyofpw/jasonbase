@@ -8,23 +8,24 @@
     "packages": [
         {
             "name": "laktak/hjson",
-            "version": "v2.0.2",
+            "version": "v2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hjson/hjson-php.git",
-                "reference": "8cb5b59cc2b15977478d3dd1310e9ed8cb5b5c1f"
+                "reference": "5dccc536b906637a9c9a8ce2180b9dfa46eb40d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hjson/hjson-php/zipball/8cb5b59cc2b15977478d3dd1310e9ed8cb5b5c1f",
-                "reference": "8cb5b59cc2b15977478d3dd1310e9ed8cb5b5c1f",
+                "url": "https://api.github.com/repos/hjson/hjson-php/zipball/5dccc536b906637a9c9a8ce2180b9dfa46eb40d3",
+                "reference": "5dccc536b906637a9c9a8ce2180b9dfa46eb40d3",
                 "shasum": ""
             },
             "require": {
+                "ext-mbstring": "*",
                 "php": ">=5.6"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "squizlabs/php_codesniffer": "^3"
             },
             "type": "library",
             "autoload": {
@@ -54,7 +55,11 @@
                 "parser",
                 "serializer"
             ],
-            "time": "2018-01-24T22:28:17+00:00"
+            "support": {
+                "issues": "https://github.com/hjson/hjson-php/issues",
+                "source": "https://github.com/hjson/hjson-php/tree/v2.3.0"
+            },
+            "time": "2025-04-20T12:56:33+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -245,12 +250,13 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.1.0",
         "ext-gd": "*"
     },
-    "platform-dev": []
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
 }
